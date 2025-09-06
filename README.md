@@ -4,7 +4,10 @@ AskTube is an **AI-powered RAG (Retrieval-Augmented Generation) app** that lets 
 It fetches transcripts, splits them into chunks, generates embeddings using Google Gemini and stores them in FAISS for efficient retrieval, and uses **Google Gemini** to generate accurate, grounded answers — without hallucinations.  
 
 ---
-📽️ *(Demo video: `Asktube_demonstration.mp4`)*  
+## 🎥 Demo
+
+[![AskTube Demo](assets/Asktube.gif)](https://www.youtube.com/watch?v=MwR6mTB0Qh8 "AskTube Demo")
+
 
 
 
@@ -61,8 +64,7 @@ When asked about **topics not mentioned in the video** (like heart transplant), 
 
 
 This clearly demonstrates the **main advantage of RAG**: answers remain grounded in real content rather than AI’s imagination.  
-
-📽️ *(Demo video: `Asktube_demonstration.mp4`)*  
+ 
 
 ---
 
@@ -82,6 +84,9 @@ This clearly demonstrates the **main advantage of RAG**: answers remain grounded
 Clone the repository:  
 
 ```bash
+
+git clone https://github.com/omraut31/AskTube-ask-anything-about-YouTube-videos-.git
+cd AskTube-ask-anything-about-YouTube-videos-
 ```
 Create and activate a virtual environment (optional but recommended):
 ```
@@ -110,5 +115,3 @@ Get precise answers, grounded only in the transcript.
 ## 🌟 Why AskTube?
 Unlike standard LLMs that may hallucinate, AskTube uses RAG to ensure answers come only from the actual video transcript.
 This makes it highly trustworthy for learning, research, and content summarization.
-git clone https://github.com/omraut31/AskTube-ask-anything-about-YouTube-videos-.git
-cd AskTube-ask-anything-about-YouTube-videos-
